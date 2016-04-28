@@ -1,9 +1,9 @@
-var express         = require('express'),
-    bodyParser      = require('body-parser'),
-    mongoose        = require('mongoose'),
-    BookSchema      = require('./models/Book')
-    UserSchema      = require('./models/User')
-    app             = express();
+var express    = require('express'),
+    bodyParser = require('body-parser'),
+    mongoose   = require('mongoose'),
+    BookSchema = require('./models/Book'),
+    UserSchema = require('./models/User'),
+    app        = express();
 
 // Settings
 app.set('json spaces', 2);
